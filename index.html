@@ -1,63 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Startup Page</title>
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- Custom CSS file -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="masterhead mb-auto">
-            <div class="inner">
-              <h1 class="masthead-brand">Xiaojun (Harry) Feng</h1>
-              <nav class="nav nav-masthead justify-content-center">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">Projects</a>
-                <a class="nav-link" href="#">Contact</a>
-              </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Xiaojun Feng - Software Developer</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Replace yourkitid with your actual FontAwesome kit ID -->
+        <style>
+            body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; color: #333; }
+            .container { width: 80%; margin: auto; overflow: hidden; }
+            header { background: #333; color: #fff; padding-top: 30px; min-height: 70px; border-bottom: #0779e4 3px solid; }
+            header h1 { padding: 5px 0; margin: 0; text-align: center; }
+            nav { display: flex; justify-content: center; padding: 10px 0; }
+            nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+            section { margin: 20px 0; }
+            .section-title { color: #0779e4; }
+            footer { background: #333; color: #fff; text-align: center; padding: 10px; margin-top: 20px; }
+            a.contact-link { display: inline-block; margin-right: 15px; color: #333; text-decoration: none; }
+            a.contact-link:hover { text-decoration: underline; }
+            .icon { margin-right: 5px; }
+            /* Additional responsive design and layout improvements here */
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>Harry Feng - Software Developer</h1>
+                <nav>
+                    <a href="#about">About Me</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </nav>
             </div>
-            <br>
-            <br>
-            <hr>
-            <div class="container my-auto">
-                <div class="row">
-                    <div>
-                        <h3>Hello! I am currently a USC master student majored in Data Informatics. Currently I am looking for a full-time job as a web developer or software engineer. :)</h3>
-                    </div>
-                    
-                </div>
-            </div>
-            <hr>
         </header>
-        <main>
-            <div class="row">
-                <div class="col-lg-12 my-auto">
-                    <a href="Resume.pdf" class="btn btn-primary btn-xl">Resume</a>
-                </div>
-            </div>
-        </main>
-        
-        <footer class="mastfoot mt-auto">
-                <div class="inner">
-                  <p>Personal page, by <a href="https://github.com/Harry-Fung">@Harry</a>.</p>
-                </div>
-        </footer> 
 
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+        <div class="container">
+            <section id="about">
+                <h2 class="section-title">About Me</h2>
+                <p>Experienced Software Engineer with over 5 years of expertise in backend development and managing large-scale, consumer-facing applications. Proficient in Python, Java, Scala, and cloud technologies (AWS, GCP). Demonstrated ability in automating processes, optimizing performance, and ensuring system reliability.</p>
+            </section>
+
+            <section id="projects">
+                <h2 class="section-title">Projects</h2>
+                <h3>Cancer Image Recognition Application</h3>
+
+                <h3>Data Pipeline Management System</h3>
+
+                <h3>Pipeline Data Management System </h3>
+
+                <!-- <h3>Personal Projects</h3> -->
+
+            </section>
+
+            <section id="skills">
+                <h2 class="section-title">Skills</h2>
+                <p>Expert in Python, Java, Scala, cloud technologies, Docker, Jenkins, React.js, Vue.js, and database management.</p>
+            </section>
+
+            <section id="experience">
+                <h2 class="section-title">Experience</h2>
+                <h3>Fulgent Genetics, Senior Software Engineer (Jan 2023 – Present)</h3>
+                <ul>
+                    Designed and developed a cancer image recognition application using Apache Spark with Python and Spark ML APIs, efficiently processing Hive data with Hortonworks YARN for advanced analytics and machine learning.
+                </ul>
+                <ul>
+                    Led the design and execution of a data pipeline and storage system optimized for high throughput, using RabbitMQ for messaging, Oracle for database management, and Restful APIs for seamless integration. Enhanced observability and operational insights with Grafana and Prometheus.  
+                </ul>
+                <ul>
+                    Spearheaded the development and maintenance of scalable backend services, achieving over 7,000 daily API requests, by leveraging Java Spring Boot and Spring Cloud frameworks. Enhanced performance and reliability through systemic architectural improvements and real-time monitoring with Grafana and Prometheus.
+                </ul>
+                <ul>
+                    Pioneered the creation of a comprehensive Grafana dashboard for bioinformatics applications, enabling real-time monitoring of system health, performance metrics, and user traffic, thus ensuring optimal system operations.
+                </ul>
+                <ul>
+                    Designed and implemented robust analysis transaction monitoring solutions using SQL, Python, and Django, improving alerts such as failure and stuck transactions. 
+                </ul>
+                <ul>
+                    Streamlined incident management by automating the integration of Jira ticketing into the existing infrastructure, reducing response times by 50% and improving resolution workflows.
+                </ul>
+                <ul>
+                    Optimized cloud operations and database management by deploying and migrating applications across selected regions using AWS EC2 and RDS.
+                </ul>
+                <ul>
+                    Initiated and maintained a production support document to help new hires on-board the production support routine.
+                </ul>
+                <h3>Fulgent Genetics, Software Engineer, Data Pipeline (Oct 2019 – Jan 2023)</h3>
+                <p>Developed data pipelines and high-performance systems, boosting operational efficiency by 20%.</p>
+                <h3>Q2 Trading Inc, Web Developer (Aug 2016 – May 2017)</h3>
+                <p>Enhanced user experience and financial transaction processes with Java Spring Boot and front-end technologies.</p>
+            </section>
+
+            <section id="contact">
+                <h2 class="section-title">Contact Information</h2>
+                <p>LinkedIn: https://www.linkedin.com/in/xiaojun-feng-72907898 </p>
+                <p>GitHub: https://github.com/Harry-Fung </p>
+            </section>
+        </div>
+
+        <footer>
+            <p>Copyright &copy; 2024 Harry Feng </p>
+        </footer>
+    </body>
 </html>
